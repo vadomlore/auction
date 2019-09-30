@@ -40,4 +40,20 @@ $npm install bootstrap --save
 $npm install @types/jquery --save
 
 $npm install @types/bootstrap --save
+
+
+$ npm install @fortawesome/fontawesome-svg-core
+$ npm install @fortawesome/free-solid-svg-icons
+# See Compatibility table below to choose a correct version
+$ npm install @fortawesome/angular-fontawesome@<version>
+
 ```
+
+### Compatiblity table
+
+|@fortawesome/angular-fontawesome|Angular|
+|-|-|
+|0.1.x|5.x|
+|0.2.x|6.x|
+|0.3.x|6.x && 7.x|
+|0.4.x, 0.5.x|8.x|

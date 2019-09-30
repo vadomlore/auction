@@ -1,1 +1,14 @@
-<p>star works!</p>
+<div >
+    <ng-container *ngFor="let s of stars">
+        <fa-icon [icon]= "s==1 ? ['fas', 'star'] : s==0.5?['fas', 'star-half-alt']:['far', 'star']" ></fa-icon>
+    </ng-container> 
+    <span>{{rating}}星</span>
+</div>
+
+
+
+<!-- only available with bootstrap  -->
+<!-- <p>
+    <span *ngFor="let star of stars" class="glyphicon glyphicon-star" [class.glyphicon-star-empty]="star"></span>
+</p> -->
+ 
